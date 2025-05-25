@@ -1,13 +1,13 @@
 # Exploring GAN Variants for Balancing Imbalanced Datasets
 
-**Course**    : Special Topics in Artificial Intelligence  
-**Instructor**: Dr. Yousef Sanjalawe  
-**Student**   : Fares Hatahet  
-**Semester**  : Spring 2024/2025  
+Course    : Special Topics in Artificial Intelligence  
+Instructor: Dr. Yousef Sanjalawe  
+Student   : Fares Hatahet  
+Semester  : Spring 2024/2025  
 
 --------------------------------------------------------
 
-## Overview
+Overview
 
 This project explores the use of Generative Adversarial Networks (GANs) to balance imbalanced datasets, specifically focusing on the **FashionMNIST** dataset.
 Various GAN variants—Vanilla GAN, DCGAN, and WGAN—are implemented from scratch using Pytorch and used to generate synthetic data for minority classes.
@@ -15,16 +15,8 @@ The project includes comparative evaluation using classification performance on 
 
 --------------------------------------------------------
 
-## Directory Structure
+Directory Structure
 
-├── balanced_dataset_DCGAN_fashion_mnist/          # Balanced FashionMNIST using DCGAN
-├── balanced_dataset_vanilla_fashion_mnist/        # Balanced FashionMNIST using Vanilla GAN
-├── balanced_dataset_WGAN_fashion_mnist/           # Balanced FashionMNIST using WGAN
-├── data/                                          # Raw FashionMNIST dataset
-├── imbalanced_dataset_DCGAN_fashion_mnist/        # Imbalanced version used in DCGAN experiment
-├── imbalanced_dataset_fashion_mnist/              # Main imbalanced dataset (via imbalancer.py)
-├── imbalanced_dataset_vanilla_fashion_mnist/      # Imbalanced version used in Vanilla GAN experiment
-├── imbalanced_dataset_WGAN_fashion_mnist/         # Imbalanced version used in WGAN experiment
 ├── saved_models/                                  # Generator and Discriminator classes as .py files
 │   ├── DCGAN.py
 │   ├── vanilla.py
